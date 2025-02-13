@@ -1,0 +1,9371 @@
+/*
+
+
+
+
+
+
+
+Theme Name: Sweden to Africa (by bike)
+
+
+
+
+
+
+
+Theme URI: p
+
+
+
+
+
+
+
+Author: Carl-David Granbäck
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+
+
+
+.cf:after {
+
+
+
+
+
+
+
+	content: "";
+
+
+
+
+
+
+
+	display: table;
+
+
+
+
+
+
+
+	clear: both;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+body {
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	color: #000;
+
+
+
+
+
+
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+
+
+
+
+
+
+
+	font-size: 0.85em;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+a {
+
+
+
+
+
+
+
+	text-decoration: none;
+
+
+
+
+
+
+
+	color: #21d;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+a:hover {
+
+
+
+
+
+
+
+	text-decoration: underline;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+a img {
+
+
+
+
+
+
+
+	border: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+header nav a:hover, h2 a:hover {
+
+
+
+
+
+
+
+	text-decoration: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+ul, ol {
+
+
+
+
+
+
+
+	list-style: none;
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+p {
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+	margin: 15px 0 0 0;
+
+
+
+
+
+
+
+	line-height: 1.5em;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h1, h2, h3 {
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+	font-family: 'Reenie Beanie';
+
+
+
+
+
+
+
+	font-size: 2.35em;
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+	margin: 15px 0 10px 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+
+
+
+
+
+
+
+	font-size: 2.75em;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h2, .home h1, h3 {
+
+
+
+
+
+
+
+	font-size: 2.35em;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+a h2 {
+
+
+
+
+
+
+
+	color: #000;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list a:hover {
+
+
+
+
+
+
+
+	text-decoration: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list .post-intro a:hover {
+
+
+
+
+
+
+
+	text-decoration: underline;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+
+
+
+
+
+
+
+	width: 960px;
+
+
+
+
+
+
+
+	margin: 0 auto;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.logo {
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/logo.png');
+
+
+
+
+
+
+
+	height: 146px;
+
+
+
+
+
+
+
+	width: 281px;
+
+
+
+
+
+
+
+	background-size: 281px 146px;
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	margin: 20px 0;
+
+
+
+
+
+
+
+	text-indent: 100%;
+
+
+
+
+
+
+
+	white-space: nowrap;
+
+
+
+
+
+
+
+	overflow: hidden;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+.green {
+
+
+
+
+
+
+
+	color: rgb(0,230,77);
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.yellow {
+
+
+
+
+
+
+
+	color: rgb(246,249,54);
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.red {
+
+
+
+
+
+
+
+	color: rgb(246,9,7);
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+nav ul li {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	margin-right: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#header-right {
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+	margin-top: 30px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+header {
+
+
+
+
+
+
+
+	border-bottom: 3px solid #e1e1e1;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+header nav a {
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+	font-family: 'Reenie Beanie';
+
+
+
+
+
+
+
+	font-size: 2.35em;
+
+
+
+
+
+
+
+	color: #333;
+
+
+
+
+
+
+
+	padding: 2px 10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-main li {
+
+
+
+
+
+
+
+	background-color: #fff;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main li.current-menu-item:nth-child(1), #menu-main li:nth-child(1):hover {
+
+
+
+
+
+
+
+	background-color: #7FF2A5;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main li.current-menu-item:nth-child(2), #menu-main li:nth-child(2):hover {
+
+
+
+
+
+
+
+	background-color: #BCF793;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main li.current-menu-item:nth-child(3), #menu-main li:nth-child(3):hover, #menu-main li.current-menu-ancestor {
+
+
+
+
+
+
+
+	background-color: #FAFBC0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main li.current-menu-item:nth-child(4), #menu-main li:nth-child(4):hover {
+
+
+
+
+
+
+
+	background-color: #FBBF82;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main li.current-menu-item:nth-child(5), #menu-main li:nth-child(5):hover {
+
+
+
+
+
+
+
+	background-color: #FA8382;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-main .sub-menu {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+	position: absolute;
+
+
+
+
+
+
+
+	font-size: 0.8em;
+
+
+
+
+
+
+
+	width: 160px;
+
+
+
+
+
+
+
+	z-index: 2;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-main li.open .sub-menu {
+
+
+
+
+
+
+
+	display: block;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-main .sub-menu li {
+
+
+
+
+
+
+
+	float: none;
+
+
+
+
+
+
+
+	border-top: 1px solid #FFDDA0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main .sub-menu li {
+
+
+
+
+
+
+
+	background-color: #FBFBCC !important;
+
+
+
+
+
+
+
+	padding: 2px 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#menu-main .sub-menu li.current-menu-item {
+
+
+
+
+
+
+
+	background-color: #FBFBE6 !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-intro {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/calle.png');
+
+
+
+
+
+
+
+	background-repeat: no-repeat;
+
+
+
+
+
+
+
+	background-size: 54px 64px;
+
+
+
+
+
+
+
+	height: 64px;
+
+
+
+
+
+
+
+	margin: 30px 0 0 7px;
+
+
+
+
+
+
+
+	padding-left: 74px;
+
+
+
+
+
+
+
+	font-family: Georgia, sans-serif;
+
+
+
+
+
+
+
+	font-size: 1.4em;
+
+
+
+
+
+
+
+	color: #777;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.blog-intro p {
+
+
+
+
+
+
+
+	margin-top: 4px;
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper {
+
+
+
+
+
+
+
+	position: relative;
+
+
+
+
+
+
+
+	background: url('/wp-content/themes/swedentoafrica/img/main-bg.png') repeat-y left top;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#main-content {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	width: 620px;
+
+
+
+
+
+
+
+	padding-right: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article {
+
+
+
+
+
+
+
+	position: relative;
+
+
+
+
+
+
+
+	margin-bottom: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article p {
+
+
+
+
+
+
+
+	width: 620px;
+
+
+
+
+
+
+
+	padding-right: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article ul li {
+
+
+
+
+
+
+
+	list-style: square;
+
+
+
+
+
+
+
+	margin-left: 30px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.home article p, .search article p {
+
+
+
+
+
+
+
+	width: inherit;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article.latest {
+
+
+
+
+
+
+
+	margin-top: 10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article.latest h2 {
+
+
+
+
+
+
+
+	color: #fff;
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	max-width: 460px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list p {
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list h2 {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	max-width: 500px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+time {
+
+
+
+
+
+
+
+	margin-top: 10px;
+
+
+
+
+
+
+
+	display: block;
+
+
+
+
+
+
+
+	color: #888;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list time {
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+	margin-top: 25px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article.latest time {
+
+
+
+
+
+
+
+	color: #fff;
+
+
+
+
+
+
+
+	margin-top: 10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article p {
+
+
+
+
+
+
+
+	clear: both;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article.latest p {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article a:hover p {
+
+
+
+
+
+
+
+	/*display: block;*/
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.article-list img {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	clear: both;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+article.latest img {
+
+
+
+
+
+
+
+	float: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.post-overlay-intro {
+
+
+
+
+
+
+
+	position: absolute;
+
+
+
+
+
+
+
+	bottom: 3px;
+
+
+
+
+
+
+
+	background-color: #000;
+
+
+
+
+
+
+
+	background: rgba(0,0,0,0.7);
+
+
+
+
+
+
+
+	width: 600px;
+
+
+
+
+
+
+
+	padding: 10px 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.post-intro {
+
+
+
+
+
+
+
+	width: 290px;
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#map {
+
+
+
+	width: 320px;
+
+
+
+	height: 460px;
+
+
+
+	border: 1px solid #e1e1e1;
+
+
+
+}
+
+
+
+
+
+
+
+.page-id-14 #map {
+
+
+
+	margin-top: 20px;
+
+
+
+	width: 960px;
+
+
+
+	height: 740px;
+
+
+
+}
+
+
+
+.page-id-14 #map img {
+
+
+
+	max-width: none !important;
+
+
+
+}
+
+
+
+.page-id-14 .location {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#respond, #comments {
+
+
+
+
+
+
+
+	margin-top: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments img {
+
+
+
+
+
+
+
+	display: block;
+
+
+
+
+
+
+
+	margin-bottom: 5px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments cite {
+
+
+
+
+
+
+
+	font-style: normal;
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+	margin-right: 5px;
+
+
+
+
+
+
+
+	padding-right: 3px;
+
+
+
+
+
+
+
+	border-right: 1px solid #AAA;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments h2 {
+
+
+
+
+
+
+
+	margin-bottom: 15px;
+
+
+
+
+
+
+
+	padding-bottom: 10px;
+
+
+
+
+
+
+
+	border-bottom: 1px solid #e1e1e1;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments h3 {
+
+
+
+
+
+
+
+	margin-top: 15px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments label {
+
+
+
+
+
+
+
+	display: block;
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments time {
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments header {
+
+
+
+
+
+
+
+	border-bottom: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments ol li {
+
+
+
+
+
+
+
+	border-bottom: 1px solid #e1e1e1;
+
+
+
+
+
+
+
+	margin-bottom: 15px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#comments article {
+
+
+
+
+
+
+
+	margin-bottom: 10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.depth-2 {
+
+
+
+
+
+
+
+	margin-left: 30px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.search img {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.search .post-intro {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	margin-left: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.search h1 {
+
+
+
+
+
+
+
+	margin-bottom: 30px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+aside {
+
+
+
+
+
+
+
+	width: 320px;
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.profile-img {
+
+
+
+
+
+
+
+	margin-top: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+
+
+
+
+
+
+
+	margin: auto;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.gallery-item {
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.gallery dl, .gallery dt {
+
+
+
+
+
+
+
+	margin: 0;
+
+
+
+
+
+
+
+	padding: 0;
+
+
+
+
+
+
+
+	width: 120px;
+
+
+
+
+
+
+
+	height: 120px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.gallery .gallery-item {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+	width: 130px !important;
+
+
+
+
+
+
+
+	height: 120px;
+
+
+
+
+
+
+
+}
+
+
+
+aside .gallery .gallery-item {
+
+width: 33% !important;
+
+}
+
+
+
+
+
+.gallery img {
+
+
+
+
+
+
+
+	border: 1px solid #fff;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.gallery .gallery-caption {
+
+
+
+
+
+
+
+	margin-left: 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.sidebar-gallery .gallery-item, .sidebar-gallery .gallery dl, .sidebar-gallery .gallery dt {
+
+
+
+
+
+
+
+	width: 100px;
+
+
+
+
+
+
+
+	height: 100px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.single .gallery {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.statistics {
+
+
+
+
+
+
+
+	display: inline-block;
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	color: #00964D;
+
+
+
+
+
+
+
+	background-color: #eeeeee;
+
+
+
+
+
+
+
+	background-position: 10px center;
+
+
+
+
+
+
+
+	background-repeat: no-repeat;
+
+
+
+
+
+
+
+	padding: 8px 10px 6px 46px;
+
+
+
+
+
+
+
+	font-size: 1.5em;
+
+
+
+
+
+
+
+	font-style: italic;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.distance {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/distance.png');
+
+
+
+
+
+
+
+	width: 180px;
+
+
+
+
+
+
+
+	background-size: 29px 24px;
+
+
+
+
+
+
+
+	border-radius: 6px 0 0 0;
+
+
+
+
+
+
+
+	border-right: 3px solid #fff;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.time {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/time.png');
+
+
+
+
+
+
+
+	width: 140px;
+
+
+
+
+
+
+
+	padding-left: 40px;
+
+
+
+
+
+
+
+	background-size: 21px 24px;
+
+
+
+
+
+
+
+	border-radius: 0 6px 0 0;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.location {
+
+
+
+
+
+
+
+	border-top: 3px solid #fff;
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/location.png');
+
+
+
+
+
+
+
+	background-size: 15px 24px;
+
+
+
+
+
+
+
+	background-position: 17px center;
+
+
+
+
+
+
+
+	float: none;
+
+
+
+
+
+
+
+	width: 100%;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.country {
+
+
+
+border-top: 3px solid #fff;
+
+
+
+	border-radius: 0 0 6px 6px;
+
+
+
+float: none;
+
+
+
+width: 100%;
+
+
+
+background-repeat: no-repeat;
+
+
+
+
+
+
+
+	background-position: 13px center;
+
+
+
+
+
+
+
+	background-size: 24px; 
+
+
+
+}
+
+
+
+
+
+.statistics.ad {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/AD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ao {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/AO.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.be {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/BE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/BF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bj {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/BJ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/BW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cd {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ch {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ci {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/CM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.de {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/DE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.dk {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/DK.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.eh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/EH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.es {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/ES.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.fr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/FR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ga {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gi {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gn {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gq {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GQ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/GW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.lr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/LR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ma {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/MA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ml {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/ML.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.mr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/MR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.na {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/NA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ng {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/NG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.nl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/NL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.se {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/SE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.sl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/SL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.sn {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/SN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.tg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/TG.png');
+
+
+
+
+
+
+
+}
+
+
+.statistics.za {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/24/ZA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.page-id-133 #content-wrapper, .page-id-14 #content-wrapper, .page-id-7 #content-wrapper, #photos #content-wrapper {
+
+
+
+
+
+
+
+	background: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.page-id-7 #content-wrapper #main-content, #photos #content-wrapper #main-content {
+
+
+
+width: auto;
+
+
+
+float: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+
+
+
+
+
+
+	background: url('/wp-content/themes/swedentoafrica/img/cartographer.png');
+
+
+
+
+
+
+
+	color: #fff;
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+	padding: 30px 40px;
+
+
+
+
+
+
+
+	margin-top: 20px;
+
+
+
+
+
+
+
+	border-top: 3px solid #e1e1e1;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer nav {
+
+
+
+
+
+
+
+	float: left;
+
+
+
+
+
+
+
+	margin-top: 16px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer nav a {
+
+
+
+
+
+
+
+	color: #fff;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer nav .sub-menu {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer span {
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+footer .icon-links {
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+	margin-left: 20px;
+
+
+
+
+
+
+
+}
+
+
+
+footer .icon-links li {
+
+float: left;
+
+}
+
+
+
+.rss {
+
+
+
+
+
+
+
+	display: block;
+
+
+
+
+
+
+
+	width: 30px;
+
+
+
+
+
+
+
+	height: 16px;
+
+
+
+
+
+
+
+	background: url('/wp-content/themes/swedentoafrica/img/rss.png') no-repeat;
+
+
+
+
+
+
+
+	background-size: 16px;
+
+
+
+
+
+
+
+	text-indent: 100%;
+
+
+
+
+
+
+
+	white-space: nowrap;
+
+
+
+
+
+
+
+	overflow: hidden;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+form.search {
+
+
+
+
+
+
+
+	float: right;
+
+
+
+
+
+
+
+	margin-top: 10px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.mobile-menu {
+
+
+
+
+
+
+
+	display: none;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#countries li {
+
+
+
+
+
+
+
+	margin-bottom: 1px;
+
+
+
+
+
+
+
+	padding-top: 4px;
+
+
+
+
+
+
+
+	height: 24px;
+
+
+
+
+
+
+
+	background-repeat: no-repeat;
+
+
+
+
+
+
+
+	background-position: right center;
+
+
+
+
+
+
+
+	background-size: 32px; 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ad {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/AD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ao {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/AO.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .be {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/BE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .bf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/BF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .bj {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/BJ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .bw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/BW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .cd {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .cf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .cg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ch {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ci {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .cm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/CM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .de {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/DE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .dk {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/DK.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .eh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/EH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .es {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/ES.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .fr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/FR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ga {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gi {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gn {
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gq {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GQ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .gw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/GW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .lr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/LR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ma {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/MA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ml {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/ML.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .mr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/MR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .na {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/NA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .ng {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/NG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .nl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/NL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .se {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/SE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .sl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/SL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .sn {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/SN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#countries .tg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/TG.png');
+
+
+
+
+
+
+
+}
+
+
+
+#countries .za {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/32/ZA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Retina images */
+
+
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+
+
+
+
+
+
+
+only screen and (   min--moz-device-pixel-ratio: 2),
+
+
+
+
+
+
+
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+
+
+
+
+
+
+
+only screen and (        min-device-pixel-ratio: 2),
+
+
+
+
+
+
+
+only screen and (                min-resolution: 192dpi),
+
+
+
+
+
+
+
+only screen and (                min-resolution: 2dppx) {
+
+
+
+
+
+
+
+	.distance {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/distance@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.time {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/time@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.location {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/location@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.rss {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/rss@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.logo {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/logo@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.blog-intro {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/calle@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	a.mobile-menu {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/mobile-menu@2x.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.statistics.ad {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/AD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ao {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/AO.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.be {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/BE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/BF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bj {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/BJ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.bw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/BW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cd {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CD.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cf {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CF.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ch {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ci {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.cm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/CM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.de {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/DE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.dk {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/DK.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.eh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/EH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.es {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/ES.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.fr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/FR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ga {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gh {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GH.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gi {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GI.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gm {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GM.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gn {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gq {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GQ.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.gw {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/GW.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.lr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/LR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ma {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/MA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ml {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/ML.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.mr {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/MR.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.na {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/NA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.ng {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/NG.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.nl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/NL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.se {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/SE.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.sl {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/SL.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.sn {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/SN.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.statistics.tg {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/TG.png');
+
+
+
+
+
+
+
+}
+
+
+.statistics.za {
+
+
+
+
+
+
+
+	background-image: url('/wp-content/themes/swedentoafrica/img/flags/48/ZA.png');
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+	#countries .ad {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/AD.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ao {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/AO.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+	#countries .be {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/BE.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .bf {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/BF.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .bj {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/BJ.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .bw {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/BW.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .cd {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CD.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .cf {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CF.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .cg {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CG.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+#countries .ch {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CH.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ci {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CI.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .cm {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/CM.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .de {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/DE.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .dk {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/DK.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .eh {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/EH.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .es {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/ES.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .fr {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/FR.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ga {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GA.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gh {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GH.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gi {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GI.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gm {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GM.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gn {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GN.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gq {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GQ.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .gw {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/GW.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .lr {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/LR.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ma {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/MA.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ml {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/ML.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .mr {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/MR.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .na {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/NA.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .ng {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/NG.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .nl {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/NL.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .se {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/SE.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .sl {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/SL.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .sn {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/SN.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#countries .tg {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/TG.png');
+
+
+
+
+
+
+
+	}
+
+#countries .za {
+
+
+
+
+
+
+
+		background-image: url('/wp-content/themes/swedentoafrica/img/flags/64/ZA.png');
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article img {
+
+
+
+
+
+
+
+	max-width: 100%;
+
+
+
+
+
+
+
+	height: auto;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+
+
+
+
+
+
+
+	#content-wrapper {
+
+
+
+
+
+
+
+		background: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	body:not(.home) #content-wrapper {
+
+
+
+
+
+
+
+		width: 650px;
+
+
+
+
+
+
+
+		margin: 0 auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	body:not(.home) article p {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+		padding-right: 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#container, .post-overlay-intro {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#main-content {
+
+
+
+
+
+
+
+		padding: 0 10px;
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home #main-content {
+
+
+
+
+
+
+
+		min-height: 682px; /* update whenever we add content to the sidebar */
+
+
+
+
+
+
+
+		margin-right: 340px;
+
+
+
+
+
+
+
+		width: auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.post-intro {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+		width: auto;
+
+
+
+
+
+
+
+		margin-top: 15px;
+
+
+
+
+
+
+
+		display: inline-block;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	aside {
+
+
+
+
+
+
+
+		float: left;
+
+
+
+
+
+
+
+		margin: 0 10px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home aside {
+
+
+
+
+
+
+
+		position: absolute;
+
+
+
+
+
+
+
+		right: 0;
+
+
+
+
+
+
+
+		top: 0;
+
+
+
+
+
+
+
+		margin-right: 10px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	header {
+
+
+
+
+
+
+
+		margin: 0 10px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	body:not(.home) iframe {
+
+
+
+
+
+
+
+		width: 650px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+
+
+
+
+
+
+
+	.logo {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+		display: block;
+
+
+
+
+
+
+
+		margin: 20px auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#header-right {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	header nav {
+
+
+
+
+
+
+
+		width: 518px;
+
+
+
+
+
+
+
+		margin: 0 auto 20px auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	footer {
+
+
+
+
+
+
+
+		padding: 20px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.blog-intro {
+
+
+
+
+
+
+
+		margin: 0 auto 25px auto;
+
+
+
+
+
+
+
+		width: 400px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.post-overlay-intro {
+
+
+
+
+
+
+
+		position: static;
+
+
+
+
+
+
+
+		background: none;
+
+
+
+
+
+
+
+		padding: 5px 0 10px 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest h2 {
+
+
+
+
+
+
+
+		color: #000;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest time {
+
+
+
+
+
+
+
+		color: #888;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home #main-content h1 {
+
+
+
+
+
+
+
+		display: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+
+
+
+
+
+
+
+	body:not(.home) #content-wrapper {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home aside {
+
+
+
+
+
+
+
+		position: static;
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+		clear: both;
+
+
+
+
+
+
+
+		margin: 0 auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home #main-content {
+
+
+
+
+
+
+
+		min-height: 0;
+
+
+
+
+
+
+
+		margin: 0 10px 15px 10px;
+
+
+
+
+
+
+
+		padding: 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home #main-content {
+
+
+
+
+
+
+
+		border-bottom: 3px solid #e1e1e1;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.post-overlay-intro {
+
+
+
+
+
+
+
+		position: absolute;
+
+
+
+
+
+
+
+		background-color: #000;
+
+
+
+
+
+
+
+		background: rgba(0,0,0,0.7);
+
+
+
+
+
+
+
+		padding: 10px 20px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest h2 {
+
+
+
+
+
+
+
+		color: #fff;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest time {
+
+
+
+
+
+
+
+		color: #fff;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#main-content h1 {
+
+
+
+
+
+
+
+		display: inline-block;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	body:not(.home) iframe {
+
+
+
+
+
+
+
+		width: 460px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	footer nav {
+
+
+
+
+
+
+
+		width: 310px;
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+		margin: 0 auto 12px auto;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	footer span {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	form.search {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 510px) {
+
+
+
+
+
+
+
+	header nav {
+
+
+
+
+
+
+
+		width: 444px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	header nav a {
+
+
+
+
+
+
+
+		font-size: 2.15em;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	nav ul li {
+
+
+
+
+
+
+
+		margin-right: 12px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.blog-intro {
+
+
+
+
+
+
+
+		display: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+
+
+
+
+
+	header nav {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	header nav li {
+
+
+
+
+
+
+
+		float: none;
+
+
+
+
+
+
+
+		margin-right: 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main {
+
+
+
+
+
+
+
+		display: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main.open {
+
+
+
+
+
+
+
+		display: block;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main a {
+
+
+
+
+
+
+
+		display: block;
+
+
+
+
+
+
+
+		padding: 5px 10px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main .sub-menu {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+		position: static;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main .sub-menu li {
+
+
+
+
+
+
+
+		padding-left: 20px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.article-list time {
+
+
+
+
+
+
+
+		clear: both;
+
+
+
+
+
+
+
+		float: left;
+
+
+
+
+
+
+
+		margin-top: 0;
+
+
+
+
+
+
+
+		margin-bottom: 10px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	a.mobile-menu {
+
+
+
+
+
+
+
+		display: block;
+
+
+
+
+
+
+
+		padding: 5px 10px;
+
+
+
+
+
+
+
+		background: #ddd url('/wp-content/themes/swedentoafrica/img/mobile-menu.png') no-repeat right center;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.post-overlay-intro {
+
+
+
+
+
+
+
+		position: static;
+
+
+
+
+
+
+
+		background: none;
+
+
+
+
+
+
+
+		padding: 5px 0 10px 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest h2 {
+
+
+
+
+
+
+
+		color: #000;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	article.latest time {
+
+
+
+
+
+
+
+		color: #888;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.home #main-content h1 {
+
+
+
+
+
+
+
+		display: none;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.article-list img {
+
+
+
+
+
+
+
+		max-width: 290px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.home aside {
+
+
+
+
+
+
+
+		margin: 10px;
+
+
+
+
+
+
+
+		width: 300px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.mobile-menu:before {
+
+
+
+
+
+
+
+		content: 'Navigation';
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	header .menu-item-17:before, header .menu-item-22:before {
+
+
+
+
+
+
+
+		content: '+';
+
+
+
+
+
+
+
+		font-size: 26px;
+
+
+
+
+
+
+
+		font-family: Arial;
+
+
+
+
+
+
+
+		text-shadow: #fff 0 1px 0;
+
+
+
+
+
+
+
+		padding-right: 15px;
+
+
+
+
+
+
+
+		position: relative;
+
+
+
+
+
+
+
+		float: right;
+
+
+
+
+
+
+
+		line-height: 40px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	header .menu-item-17.open:before, header .menu-item-22.open:before {
+
+
+
+
+
+
+
+		content: '\2013';
+
+
+
+
+
+
+
+		line-height: 36px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#menu-main li:nth-child(1) {
+
+
+
+
+
+
+
+		background-color: #7FF2A5;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main li:nth-child(2) {
+
+
+
+
+
+
+
+		background-color: #BCF793;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main li:nth-child(3) {
+
+
+
+
+
+
+
+		background-color: #FAFBC0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main li:nth-child(4) {
+
+
+
+
+
+
+
+		background-color: #FBBF82;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#menu-main li:nth-child(5) {
+
+
+
+
+
+
+
+		background-color: #FA8382;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.distance {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+		border-right: 0;
+
+
+
+
+
+
+
+		border-radius: 6px 6px 0 0;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	.time {
+
+
+
+
+
+
+
+		width: 100%;
+
+
+
+
+
+
+
+		border-radius: 0;
+
+
+
+
+
+
+
+		border-top: 3px solid #fff;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+}
